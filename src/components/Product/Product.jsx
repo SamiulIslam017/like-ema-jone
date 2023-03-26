@@ -6,6 +6,8 @@ import cart from "../../images/cart-plus-solid.svg"
 const Product = (props) => {
 
     const {img , name, seller, price, ratings, quantity} = props.product;
+    const handleAddToCart = props.handleAddToCart;
+    
     return (
         <div className='product'>
             <div className="wrapper">
@@ -21,7 +23,7 @@ const Product = (props) => {
                     </div>
                 </div>
             </div>
-            <button className='btnIcons'>Add To Cart <img src={cart} /></button>
+            <button onClick={() => handleAddToCart(props.product)} className='btnIcons'>Add To Cart <img src={cart} /></button>
         </div>
     );
 };

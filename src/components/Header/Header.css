@@ -2,6 +2,9 @@
     height: 80px;
     background-color: #1C2B35;
     padding: 0 4rem;
+    position: fixed;
+    width: -webkit-fill-available;
+    z-index: 999;
 }
 .navbar{
     height: 100%;

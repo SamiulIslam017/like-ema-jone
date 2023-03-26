@@ -1,7 +1,9 @@
 .shop-container{
+    position: relative;
     display: grid;
     grid-template-columns: 4fr 1fr;
     padding-top: 2rem;
+    top: 80px;
 }
 .shop-container .products{
     padding: 0 4rem;
@@ -13,4 +15,12 @@
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
     grid-gap: 20px;
+}
+.cart-container{
+    position: fixed;
+    right: 0;
+    width: 20%;
+    height: 80vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
