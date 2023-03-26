@@ -1,0 +1,25 @@
+.header {
+    height: 80px;
+    background-color: #1C2B35;
+    padding: 0 4rem;
+}
+.navbar{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-items{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+.menu-items a {
+    font-weight: 500;
+    color: #fff;
+    text-decoration: inherit;
+    transition: all 0.2s ease-in-out;
+}
+.menu-items a:hover {
+    color: #FF9900;
+}
