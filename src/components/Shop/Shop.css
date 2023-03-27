@@ -2,7 +2,7 @@
     position: relative;
     display: grid;
     grid-template-columns: 4fr 1fr;
-    padding-top: 2rem;
+    padding-top: 4rem;
     top: 80px;
 }
 .shop-container .products{
@@ -19,8 +19,17 @@
 .cart-container{
     position: fixed;
     right: 0;
+    top: 80px;
     width: 20%;
     height: 80vh;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    /* overflow-x: hidden;
+    overflow-y: scroll; */
+    background-color: #FFE0B3;
+}
+.cart-container h1{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #1c2b1c;
+    text-align: center;
 }

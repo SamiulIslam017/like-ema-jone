@@ -1,0 +1,22 @@
+.cart p{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px ;
+    border-left: 3px solid #95A0A7;
+    border-radius: 2px;
+}
+.cart p span{
+    font-weight: 600;
+}
+
+.cart h6{
+    border-top: 3px solid #95A0A7;
+    font-weight: 700;
+    font-size: 21px;
+    text-align: right;
+    color: #FF9900; 
+}
+.cart h6 span{
+    color: black;
+}
